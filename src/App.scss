@@ -1,0 +1,35 @@
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 50px;
+  &__logo{
+    padding: 30px 30px;
+    width: fit-content;
+    border-radius: 10px;
+    background: #a7c7dd;
+  }
+  &__title{
+    padding-left: 50px;
+  }
+}
+
+.shopping{
+  &__item{
+    margin: 10px auto;
+    width: fit-content;
+  }
+}
+
+.product{
+  &__form{
+    width: fit-content;
+    border-top: 2px solid #eee;
+
+    margin: 0 auto;
+    padding-top: 50px;
+  }
+  &__title{
+    text-align: center;
+  }
+}
